@@ -97,7 +97,7 @@ export default function Sidebar() {
                              : 'bg-gold-500 bg-opacity-15 text-gold-500 hover:bg-opacity-25'
                            : active
                              ? 'bg-white bg-opacity-10 text-white'
-                             : 'text-navy-300 hover:text-white hover:bg-white hover:bg-opacity-5'}`}
+                             : 'text-navy-200 hover:text-white hover:bg-white hover:bg-opacity-10'}`}
             >
               <span className={item.accent && !active ? 'text-gold-500' : ''}>{item.icon}</span>
               {item.label}
